@@ -1,1 +1,68 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7f2;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ffb6a1;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #5a2a27;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-style: italic;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #ffd9cc;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a2a27;
+    font-weight: bold;
+}
+
+/* Intro section */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h2 {
+    color: #5a2a27;
+}
+
+.main-image {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #ffb6a1;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
 
