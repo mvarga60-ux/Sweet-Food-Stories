@@ -1,53 +1,66 @@
-/* General page styling */
+/* ====== Global Styles ====== */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
     background-color: #fff7f2;
     color: #333;
+    line-height: 1.6;
 }
 
-/* Header */
+/* ====== Header ====== */
 header {
     background-color: #ffb6a1;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: center;
+    border-bottom: 3px solid #e8a08c;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.2rem;
     color: #5a2a27;
 }
 
 header p {
-    margin: 5px 0 0;
+    margin-top: 8px;
+    font-size: 1.1rem;
     font-style: italic;
+    color: #6d3a36;
 }
 
-/* Navigation menu */
+/* ====== Navigation ====== */
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 10px;
+    padding: 12px;
     background-color: #ffd9cc;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
     color: #5a2a27;
     font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
-/* Intro section */
+nav ul li a:hover {
+    background-color: #ffb6a1;
+}
+
+/* ====== Intro Section ====== */
 .intro {
-    text-align: center;
     padding: 20px;
+    text-align: center;
 }
 
 .intro h2 {
+    font-size: 1.8rem;
     color: #5a2a27;
 }
 
@@ -56,13 +69,62 @@ nav a {
     max-width: 400px;
     border-radius: 10px;
     margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Footer */
+/* ====== Recipe Cards ====== */
+.recipe-card {
+    background-color: #ffe8e0;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-card h2 {
+    color: #5a2a27;
+    margin-top: 10px;
+}
+
+.recipe-card p {
+    margin: 10px 0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: #ffb6a1;
+    color: #5a2a27;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff9f85;
+}
+
+/* ====== Footer ====== */
 footer {
     background-color: #ffb6a1;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 3px solid #e8a08c;
 }
 
+footer p {
+    margin: 0;
+    color: #5a2a27;
+    font-weight: bold;
+}
