@@ -128,3 +128,15 @@ footer p {
     color: #5a2a27;
     font-weight: bold;
 }
+
+/* ====== Imágenes pequeñas con color pastel ====== */
+img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    border: 4px solid #ffb6a1; /* borde rosa durazno */
+    box-shadow: 0 4px 10px rgba(255, 182, 161, 0.4); /* sombra pastel */
+}
