@@ -293,3 +293,10 @@ footer p {
     font-weight: bold;
     font-family: 'Playfair Display', serif;
 }
+
+/* ====== GLOBAL IMAGE FIX (added) ====== */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
