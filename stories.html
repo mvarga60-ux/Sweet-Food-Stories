@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Stories – Sweet Food Stories</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <meta name="description" content="Sweet stories behind our favorite desserts. Memories, traditions, and flavors that bring people together.">
+    <meta name="keywords" content="stories, food memories, desserts, traditions">
 </head>
 
 <body>
@@ -24,28 +31,95 @@
         </ul>
     </nav>
 
-    <section class="intro">
-        <h2>Stories Behind the Dishes</h2>
-        <p>
-            Every recipe has a memory attached — family gatherings, celebrations, or quiet moments.
-            These stories bring each dish to life and connect us through flavor and tradition.
-        </p>
+    <main>
 
-        <!-- Cuando tengas tus fotos, reemplaza esta imagen -->
-        <img src="images/flan.jpg" 
-             alt="Food story" class="main-image">
-    </section>
+        <!-- INTRO EN DOS COLUMNAS -->
+        <section class="intro-grid">
 
-    <section class="intro">
-        <h2>Sweet Moments</h2>
-        <p>
-            From childhood desserts to new creations, each dish carries a piece of our history.
-            Sweet Food Stories celebrates those moments and the flavors that shaped them.
-        </p>
-    </section>
+            <div class="intro-text">
+                <h2>Stories Behind the Dishes</h2>
+                <p>
+                    Every recipe carries a memory—family gatherings, cozy mornings, celebrations, and cultural traditions.
+                    These stories bring each dessert to life and connect us through flavor and shared experiences.
+                </p>
+            </div>
+
+            <div class="intro-image">
+                <img src="postres.jpg" alt="Assorted desserts on a table">
+            </div>
+
+        </section>
+
+        <!-- GRID DE DOS COLUMNAS PARA LAS HISTORIAS -->
+        <section>
+            <div class="stories-grid">
+
+                <div class="story-card">
+                    <div class="story-header">
+                        <img src="cupcake.png" alt="cupcake icon" class="story-icon">
+                        <h3>Flan – A Sunday Tradition</h3>
+                    </div>
+                    <p>Flan is one of those desserts that seems to appear in every family story.</p>
+                    <p>Passed down through generations, it was often prepared early in the morning so it could chill in time for Sunday lunch.</p>
+                    <p>The sound of caramel bubbling in a pan or the suspense of flipping the mold became rituals of their own.</p>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-header">
+                        <img src="cupcake.png" alt="cupcake icon" class="story-icon">
+                        <h3>Quesitos – A Taste of Home</h3>
+                    </div>
+                    <p>Quesitos are a beloved pastry in many Caribbean households, especially in Puerto Rico.</p>
+                    <p>Their flaky layers and sweet cream cheese filling make them a favorite for both breakfast and dessert.</p>
+                    <p>Each bite carries the warmth of tradition and the pride of cultural heritage.</p>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-header">
+                        <img src="cupcake.png" alt="cupcake icon" class="story-icon">
+                        <h3>Tres Leches Cake – A Celebration in Every Slice</h3>
+                    </div>
+                    <p>The Tres Leches Cake has long been a symbol of celebration across Latin America.</p>
+                    <p>Many families remember it as the dessert that appeared at every birthday, baptism, and holiday gathering.</p>
+                    <p>Its rich, soaked layers filled the kitchen with the sweet aroma of milk and vanilla.</p>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-header">
+                        <img src="cupcake.png" alt="cupcake icon" class="story-icon">
+                        <h3>Pumpkin Cake – Autumn’s Comfort</h3>
+                    </div>
+                    <p>Pumpkin Cake carries the essence of fall—cool evenings, warm spices, and cozy kitchens.</p>
+                    <p>It’s tied to family traditions, especially during harvest season.</p>
+                    <p>Each slice feels like a reminder of home and the simple joy of sharing dessert on a chilly day.</p>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-header">
+                        <img src="cupcake.png" alt="cupcake icon" class="story-icon">
+                        <h3>Apple Muffins – Sweet Mornings</h3>
+                    </div>
+                    <p>Apple muffins bring back memories of early mornings—school days, quick breakfasts, or weekend baking sessions.</p>
+                    <p>The smell of apples and cinnamon drifting through the house is enough to make anyone nostalgic.</p>
+                    <p>They remind us of simple routines and the small joys that start the day right.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ENLACE EXTERNO -->
+        <section class="extra" style="text-align:center; margin-top:40px;">
+            <p>
+                Learn more about how food connects to culture at 
+                <a href="https://www.foodtimeline.org" target="_blank">Food Timeline</a>.
+            </p>
+        </section>
+
+    </main>
 
     <footer>
-        <p>© 2026 Sweet Food Stories – Created by Mario</p>
+        <p>© 2026 Sweet Food Stories</p>
+        <p style="font-style: italic;">Mario Vargas – Mariovargas@asu.edu</p>
     </footer>
 
 </body>

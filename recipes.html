@@ -24,61 +24,95 @@
         </ul>
     </nav>
 
-    <section class="intro">
-        <h2>Featured Recipes</h2>
-        <p>Explore a collection of sweet creations made with love.</p>
-    </section>
+    <main>
 
-    <!-- FLAN -->
-    <section class="recipe-card">
-        <img src=flan.jpg alt="Flan">
-        <h2>Flan</h2>
-        <p>A classic creamy dessert with caramel flavor and a smooth texture.</p>
-        <a href="#" class="btn">View Recipe</a>
-    </section>
+        <!-- INTRO -->
+        <section class="intro">
+            <h2>Featured Recipes</h2>
+            <p>Explore a collection of sweet creations made with love.</p>
+        </section>
 
-    <!-- TRES LECHES CAKE -->
-    <section class="recipe-card">
-        <img src=tresleches.jpg alt="Tres Leches Cake">
-        <h2>Tres Leches Cake</h2>
-        <p>A soft and moist cake soaked in three types of milk, topped with whipped cream.</p>
-        <a href="#" class="btn">View Recipe</a>
-    </section>
+        <!-- RECIPE CARDS GRID (NOW AT THE TOP) -->
+        <section class="recipes-grid">
 
-    <!-- PUMPKIN CAKE -->
-    <section class="recipe-card">
-        <img src=calabaza.jpg alt="Pumpkin Cake">
-        <h2>Pumpkin Cake</h2>
-        <p>A warm and spiced pumpkin-based cake perfect for any season.</p>
-        <a href="#" class="btn">View Recipe</a>
-    </section>
+            <div class="recipe-card">
+                <img src="flan.jpg" alt="Flan">
+                <h2>Flan</h2>
+                <p>A classic creamy dessert with caramel flavor and a smooth texture.</p>
+            </div>
 
-    <!-- COOKIES -->
-    <section class="recipe-card">
-        <img src=galletas.jpg alt="Cookies">
-        <h2>Cookies</h2>
-        <p>Soft, sweet cookies with a homemade flavor that everyone loves.</p>
-        <a href="#" class="btn">View Recipe</a>
-    </section>
+            <div class="recipe-card">
+                <img src="tresleches.jpg" alt="Tres Leches Cake">
+                <h2>Tres Leches Cake</h2>
+                <p>A soft and moist cake soaked in three types of milk, topped with whipped cream.</p>
+            </div>
 
-    <!-- QUESITOS -->
-    <section class="recipe-card">
-        <img src=quesitos.jpg alt="Quesitos">
-        <h2>Quesitos</h2>
-        <p>A flaky pastry filled with sweet cream cheese, a Caribbean favorite.</p>
-        <a href="#" class="btn">View Recipe</a>
-    </section>
+            <div class="recipe-card">
+                <img src="calabaza.jpg" alt="Pumpkin Cake">
+                <h2>Pumpkin Cake</h2>
+                <p>A warm and spiced pumpkin-based cake perfect for any season.</p>
+            </div>
 
-    <!-- APPLE MUFFIN -->
-    <section class="recipe-card">
-        <img src=apple-muffin.jpg alt="Apple Muffin">
-        <h2>Apple Muffin</h2>
-        <p>A soft and fluffy muffin with apple chunks and a warm touch of cinnamon.</p>
-        <a href="#" class="btn">View Recipe</a>
-    </section>
+            <div class="recipe-card">
+                <img src="galletas.jpg" alt="Cookies">
+                <h2>Cookies</h2>
+                <p>Soft, sweet cookies with a homemade flavor that everyone loves.</p>
+            </div>
+
+            <div class="recipe-card">
+                <img src="quesitos.jpg" alt="Quesitos">
+                <h2>Quesitos</h2>
+                <p>A flaky pastry filled with sweet cream cheese, a Caribbean favorite.</p>
+            </div>
+
+            <div class="recipe-card">
+                <img src="apple-muffin.jpg" alt="Apple Muffin">
+                <h2>Apple Muffin</h2>
+                <p>A soft and fluffy muffin with apple chunks and a warm touch of cinnamon.</p>
+            </div>
+
+        </section>
+
+        <!-- TABLE + VIDEO SECTION (NOW BELOW THE RECIPES) -->
+        <section class="extra-section">
+
+            <h2>Recipe Comparison Table</h2>
+            <table>
+                <tr>
+                    <th>Dessert</th>
+                    <th>Difficulty</th>
+                    <th>Prep Time</th>
+                </tr>
+                <tr>
+                    <td>Flan</td>
+                    <td>Easy</td>
+                    <td>45 minutes</td>
+                </tr>
+                <tr>
+                    <td>Tres Leches Cake</td>
+                    <td>Medium</td>
+                    <td>1 hour</td>
+                </tr>
+                <tr>
+                    <td>Cookies</td>
+                    <td>Easy</td>
+                    <td>30 minutes</td>
+                </tr>
+            </table>
+
+            <h2>How to Make Flan</h2>
+            <video controls>
+                <source src="flan.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </section>
+
+    </main>
 
     <footer>
-        <p>© 2026 Sweet Food Stories – Created by Mario</p>
+        <p style="text-align: center;">Copyright © 2026 Sweet Food Stories</p>
+        <p style="text-align: center; font-style: italic;">Mario Vargas – mariovargas@asu.edu</p>
     </footer>
 
 </body>

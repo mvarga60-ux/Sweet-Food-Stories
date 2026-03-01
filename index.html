@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Required meta tags -->
+    <meta name="description" content="Sweet Food Stories – Discover recipes, personal food stories, and the joy of cooking.">
+    <meta name="keywords" content="recipes, cooking, food stories">
+
     <title>Sweet Food Stories</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Analytics (replace G-XXXXXXX with your ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXX');
+    </script>
 </head>
 
 <body>
@@ -24,18 +38,21 @@
         </ul>
     </nav>
 
-    <section class="intro">
-        <h2>Welcome to Sweet Food Stories</h2>
-        <p>
-            This website celebrates the joy of cooking and the stories behind every dish. 
-            Explore recipes, read personal food stories, and discover new flavors.
-        </p>
+    <main>
+        <section class="intro">
+            <h2>Welcome to Sweet Food Stories</h2>
+            <p>
+                This website celebrates the joy of cooking and the stories behind every dish. 
+                Explore recipes, read personal food stories, and discover new flavors.
+            </p>
 
-        <a href="recipes.html" class="btn">Explore Recipes</a>
-    </section>
+            <a href="recipes.html" class="btn">Explore Recipes</a>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2026 Sweet Food Stories – Created by Mario</p>
+        <p style="text-align: center;">Copyright © 2026 Sweet Food Stories</p>
+        <p style="text-align: center; font-style: italic;">Mario Vargas – mariovargas@asu.edu</p>
     </footer>
 
 </body>

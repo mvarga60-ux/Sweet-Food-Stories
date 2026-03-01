@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Required meta tags -->
+    <meta name="description" content="Learn the story and mission behind Sweet Food Stories, a place where recipes and memories come together.">
+    <meta name="keywords" content="about, food stories, cooking, recipes">
+
     <title>About – Sweet Food Stories</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Analytics (replace G-XXXXXXX with your ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXX');
+    </script>
 </head>
 
 <body>
@@ -24,31 +38,35 @@
         </ul>
     </nav>
 
-    <section class="intro">
-        <h2>Our Mission</h2>
-        <p>
-            Sweet Food Stories was created to celebrate the connection between food and memories. 
-            Every dish has a story, and every story brings people together. This space is dedicated 
-            to sharing the flavors, traditions, and sweet moments that make each recipe special.
-        </p>
+    <main>
+        <section class="intro">
+            <h2>Our Mission</h2>
+            <p>
+                Sweet Food Stories was created to celebrate the connection between food and memories. 
+                Every dish has a story, and every story brings people together. This space is dedicated 
+                to sharing the flavors, traditions, and sweet moments that make each recipe special.
+            </p>
 
-        <!-- Cuando tengas tus fotos, reemplaza esta imagen -->
-        <img src="images/flan.jpg" 
-             alt="Cooking ingredients" class="main-image">
-    </section>
+            <!-- Imagen de crème brûlée -->
+            <img src="cremebrulee.jpg" 
+                 alt="A classic crème brûlée with caramelized sugar on top" 
+                 class="main-image">
+        </section>
 
-    <section class="intro">
-        <h2>Why Sweet Food Stories?</h2>
-        <p>
-            Food is more than ingredients and instructions — it’s culture, family, and emotion. 
-            Whether it’s a dessert passed down through generations or a new recipe discovered by 
-            accident, every dish carries a memory worth sharing. Sweet Food Stories brings those 
-            memories to life.
-        </p>
-    </section>
+        <section class="intro">
+            <h2>Why Sweet Food Stories?</h2>
+            <p>
+                Food is more than ingredients and instructions — it’s culture, family, and emotion. 
+                Whether it’s a dessert passed down through generations or a new recipe discovered by 
+                accident, every dish carries a memory worth sharing. Sweet Food Stories brings those 
+                memories to life.
+            </p>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2026 Sweet Food Stories – Created by Mario</p>
+        <p style="text-align: center;">Copyright © 2026 Sweet Food Stories</p>
+        <p style="text-align: center; font-style: italic;">Mario Vargas – mariovargas@asu.edu</p>
     </footer>
 
 </body>
