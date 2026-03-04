@@ -4,26 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Required meta tags -->
     <meta name="description" content="Sweet Food Stories – Discover recipes, personal food stories, and the joy of cooking.">
     <meta name="keywords" content="recipes, cooking, food stories">
 
     <title>Sweet Food Stories</title>
-    <link rel="stylesheet" href="style.css">
 
-    <!-- Google Analytics (replace G-XXXXXXX with your ID) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXX');
-    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
+        <img src="logo.png" alt="Sweet Food Stories Logo" class="site-logo">
+
         <h1>Sweet Food Stories</h1>
         <p>Where every recipe has a story.</p>
     </header>
@@ -39,20 +33,24 @@
     </nav>
 
     <main>
-        <section class="intro">
-            <h2>Welcome to Sweet Food Stories</h2>
-            <p>
-                This website celebrates the joy of cooking and the stories behind every dish. 
-                Explore recipes, read personal food stories, and discover new flavors.
-            </p>
 
-            <a href="recipes.html" class="btn">Explore Recipes</a>
-        </section>
+        <p class="index-intro">
+            Welcome to Sweet Food Stories — a space where every dish carries a memory. 
+            From family gatherings to cozy mornings and cultural traditions, food connects us 
+            through flavor and shared experiences. Explore recipes, discover stories, and 
+            celebrate the joy of cooking.
+        </p>
+
+        <!-- Imagen agregada al Home -->
+        <img src="pastry.jpg" alt="Homemade Pastry Preparation" class="main-image">
+
+        <a href="recipes.html" class="btn">Explore Recipes</a>
+
     </main>
 
     <footer>
-        <p style="text-align: center;">Copyright © 2026 Sweet Food Stories</p>
-        <p style="text-align: center; font-style: italic;">Mario Vargas – mariovargas@asu.edu</p>
+        <p>Copyright © 2026 Sweet Food Stories</p>
+        <p style="font-style: italic;">Mario Vargas – <a href="mailto:mariovargas@asu.edu">mariovargas@asu.edu</a></p>
     </footer>
 
 </body>
